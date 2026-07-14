@@ -1,0 +1,20 @@
+{
+  "name": "agent-trust-framework",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace @atf/core && npm run build --workspace @atf/server && npm run build --workspace @atf/web",
+    "dev": "npm run dev --workspace @atf/server",
+    "dev:web": "npm run dev --workspace @atf/web",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run build --workspace @atf/core && npm run typecheck --workspace @atf/server && npm run typecheck --workspace @atf/web"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
