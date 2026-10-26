@@ -12,18 +12,18 @@
   },
   "dependencies": {
     "@atf/core": "*",
-    "@fastify/cors": "latest",
-    "@fastify/static": "latest",
-    "better-sqlite3": "latest",
-    "fastify": "latest",
-    "google-auth-library": "latest",
-    "zod": "latest"
+    "@fastify/cors": "*",
+    "@fastify/static": "*",
+    "better-sqlite3": "*",
+    "fastify": "*",
+    "google-auth-library": "*",
+    "zod": "*"
   },
   "devDependencies": {
-    "@types/better-sqlite3": "latest",
-    "@types/node": "latest",
-    "tsx": "latest",
-    "typescript": "latest",
-    "vitest": "latest"
+    "@types/better-sqlite3": "*",
+    "@types/node": "*",
+    "tsx": "*",
+    "typescript": "*",
+    "vitest": "^5.0.5"
   }
 }
